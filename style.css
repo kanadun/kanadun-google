@@ -1,0 +1,134 @@
+/*CSS Code*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.logo{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 70px 0;
+}
+
+input{
+    width: 400px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 1px solid #cccccc;
+    background: url(mic.svg) no-repeat,url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Lens_Icon.svg)no-repeat,
+    url(search.svg)no-repeat ;
+    background-size: 23px;
+    background-position: right 50px center,right 15px center,left 15px center;
+} 
+
+input:focus{
+    box-shadow: 2px 3px 4px 2px #cccccc;
+    outline: none;
+}
+
+.input-search{
+    padding-top: 20px;
+}
+
+.btn-container{
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 1px 1px #cccccc;
+    outline: none;
+}
+
+div.languages{
+    margin-top: 40px;
+}
+
+ol.languages{
+    list-style-type: none;
+}
+
+ol.languages li {
+    display: inline;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 10px;
+}
+
+ol.languages li > a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#1a0dab;
+}
+
+ol.languages li > a:hover{
+    text-decoration: underline;
+}
+
+div.header {
+    width: 10px;
+    display: inline;
+    
+}
+
+div.header >img.dote{
+    margin-top: 0px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    justify-content: space-between 4px;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+div.header >img.lab{
+    width: 40px;
+    float: right;
+    justify-content: space-between 4px;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+div.header > img.lab:hover{
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+div.header > img.dote:hover{
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100% ;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ol li{
+    display: inline;
+    padding-right: 30px;
+    color: #676767;
+    font-size: 13px;
+}
+
+footer ol li:hover{
+    text-decoration: underline #676767;
+}
+
+
+
+
